@@ -1,0 +1,37 @@
+ #navigation-toolbox, #tabmail-tabs,  #tabmail-arrowscrollbox{ /* Outer tab containers */
+    min-height: 44px !important;
+ }
+ 
+.tabmail-tab { /* Give the tabs a bit of a margin */
+    margin: 4px !important;
+}
+ 
+.tab-background { /* Round tab corners and add a bit of padding */
+    padding: 6px;
+    border-radius: 4px;
+}
+ 
+.tab-line { /* Eliminate the line at the top of the tab */
+    height: 0px !important;
+    display: none !important;
+}
+
+.tabmail-tab::after, .tabmail-tab::before { /* Eliminate the line between inactive tabs */
+    border: none !important;
+}
+
+.toolbarbutton-1, .searchBox, .themeableSearchBox { /* Eliminate borders, round corners, and increase height on buttons and search bars */
+    border: none !important;
+    border-radius: 5px !important;
+    height: 31px !important;
+}
+
+.panel-arrowbox { /* hide the arrow on popup menus */
+    display: none;
+}
+
+.panel-arrowcontent { /* Eliminate borders, round corners, and increase padding on popup menus */
+    padding: 5px !important;
+    border-radius: 5px;
+    border: none;
+}
