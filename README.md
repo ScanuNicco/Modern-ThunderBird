@@ -1,5 +1,14 @@
 # Modern-ThunderBird
-A userChrome.css theme to make thunderbird resemble Firefox 89+
+A userChrome.css theme to make Thunderbird (78+) resemble Firefox 89+
+
+![Updated tabs and toolbar](Screenshots/screen1.webp)
+*Updated tabs and toolbar*
+
+![Updated dropdown menus](Screenshots/screen2.webp)
+*Updated dropdown menus*
+
+![Works with themes](Screenshots/screen3.webp)
+*Works with most themes other than the default light theme.*
 
 ## Installation
 
