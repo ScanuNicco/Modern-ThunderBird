@@ -1,4 +1,9 @@
- #navigation-toolbox, #tabmail-tabs,  #tabmail-arrowscrollbox{ /* Outer tab containers */
+/* On macos, the titlebar has to be made high enough */
+#titlebar {
+ height: 44px;
+}
+
+#navigation-toolbox, #tabmail-tabs,  #tabmail-arrowscrollbox{ /* Outer tab containers */
     min-height: 44px !important;
  }
  
