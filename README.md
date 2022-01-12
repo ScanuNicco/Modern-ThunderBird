@@ -24,7 +24,7 @@ A userChrome.css theme to make Thunderbird (78+) resemble Firefox 89+
 
 	+ Linux - `$HOME/.thunderbird/XXXXXXX.default-XXXXXX/`.
 	+ Windows 10 - `C:\Users\<USERNAME>\AppData\Roaming\Thunderbird\Profiles\XXXXXXX.default-XXXXXX`.
-	+ macOS - `Users/<USERNAME>/Library/Application Support/Thunderbird/Profiles/XXXXXXX.default-XXXXXXX`.
+	+ MacOS - `Users/<USERNAME>/Library/Thunderbird/Profiles/XXXXXXX.default-XXXXXXX`.
 
 6. Create a folder and name it **`chrome`**, then copy `userChrome.css` from step 1 to `chrome` folder.
 7. Restart Thunderbird.
