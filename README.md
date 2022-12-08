@@ -7,8 +7,14 @@ A userChrome.css theme to make Thunderbird (78+) resemble Firefox 89+
 ![Updated dropdown menus](Screenshots/screen2.webp)
 *Updated dropdown menus*
 
-![Works with themes](Screenshots/screen3.webp)
-*Works with most themes other than the default light theme.*
+![image](https://user-images.githubusercontent.com/30136040/206356800-68260b43-7428-432e-a474-a77703f36c0b.png)
+*Works with dark theme*
+
+![image](https://user-images.githubusercontent.com/30136040/206357038-4cdaf307-16bf-46d5-b653-b8465fd1b870.png)
+*Works with light theme*
+
+![image](https://user-images.githubusercontent.com/30136040/206357203-8833fc4d-4542-43d1-be31-5ac843bc5df7.png)
+*Works with custom themes (also URL bar is fixed)*
 
 ## Installation
 
