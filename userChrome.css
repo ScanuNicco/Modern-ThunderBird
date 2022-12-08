@@ -31,6 +31,10 @@
     height: 31px !important;
 }
 
+.contentTabUrlInput {
+    height: 26px !important;
+}
+
 .panel-arrowbox { /* hide the arrow on popup menus */
     display: none;
 }
@@ -43,4 +47,46 @@
 
 .spaces-toolbar:not([hidden]) {
     margin-top: -44px !important;
+}
+
+.tab-background[selected="true"] {
+    box-shadow: var(--tab-shadow) !important;
+}
+
+.tabmail-tab:hover .tab-background:not([selected="true"]) {
+    background-color: color-mix(in srgb, currentColor 11%, transparent) !important;
+}
+
+@media (-moz-content-prefers-color-scheme:light) {
+  /* Light Theme */
+    :root {
+        --tab-shadow: 0px 0px 4px #888;
+        --toolbar-field-background-color: rgb(230, 230, 234) !important;
+  }
+}
+
+@media (-moz-content-prefers-color-scheme:dark) {
+  /* Dark Theme */
+  :root {
+    --tab-shadow: 0px 0px 4px #111 !important;
+    --toolbar-field-background-color: rgb(28, 27, 34) !important;
+  }
+}
+
+.tab-close-button {
+    padding: 6px !important;
+}
+
+.tab-close-icon {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.contentTabToolbar {
+    height: 40px !important;
+}
+
+#urlbar-background {
+    border: none;
+    box-shadow: none !important;
 }
